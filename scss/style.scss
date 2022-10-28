@@ -1,21 +1,26 @@
 @font-face {
   font-family: 'SF-ProDisplay';
-  src: url("../ff/SFProDisplay-Light.woff2") format("woff2");
+  src: url('../ff/SFProDisplay-Light.woff2') format('woff2');
   font-style: normal;
   font-weight: 400;
 }
+
 @font-face {
   font-family: 'SF-ProDisplay';
-  src: url("../ff/SFProDisplay-Regular.woff2") format("woff2");
+  src: url('../ff/SFProDisplay-Regular.woff2') format('woff2');
   font-style: normal;
   font-weight: 600;
 }
+
 @font-face {
   font-family: 'SF-ProDisplay';
-  src: url("../ff/SFProDisplay-Medium.woff2") format("woff2");
+  src: url('../ff/SFProDisplay-Medium.woff2') format('woff2');
   font-style: normal;
   font-weight: 700;
 }
+
+$accent: #1c62cd;
+
 body {
   font-family: 'SF-ProDisplay', sans-serif;
   font-weight: 400;
@@ -28,7 +33,6 @@ body {
 * {
   box-sizing: border-box;
 }
-
 *::after,
 *::before {
   box-sizing: inherit;
@@ -37,7 +41,6 @@ body {
 ul {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   color: inherit;
