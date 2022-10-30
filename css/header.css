@@ -1,0 +1,40 @@
+.header {
+  margin-bottom: 78px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 21px;
+  align-items: center;
+}
+.header__nav {
+  display: flex;
+  gap: 50px;
+  font-weight: 700;
+}
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  gap: 86px;
+  align-items: baseline;
+  font-weight: 700;
+}
+.header__icons {
+  display: flex;
+  gap: 10px;
+}
+.header__menu {
+  background-color: #f0f0f4;
+  padding: 15px 0;
+}
+.header__links {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.header__link {
+  transition: all 0.3s;
+}
+.header__link:hover {
+  transform: scale(1.1);
+}

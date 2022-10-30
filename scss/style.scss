@@ -3,6 +3,7 @@
   src: url('../ff/SFProDisplay-Light.woff2') format('woff2');
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   src: url('../ff/SFProDisplay-Regular.woff2') format('woff2');
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
@@ -17,6 +19,7 @@
   src: url('../ff/SFProDisplay-Medium.woff2') format('woff2');
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
 }
 
 $accent: #1c62cd;
@@ -28,6 +31,7 @@ body {
   font-size: 20px;
   background-color: #fff;
   color: #2f3035;
+  line-height: 24px;
 }
 
 * {
@@ -44,4 +48,10 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }

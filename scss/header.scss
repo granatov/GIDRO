@@ -1,0 +1,40 @@
+.header {
+  margin-bottom: 78px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 21px;
+    align-items: center;
+  }
+  &__nav {
+    display: flex;
+    gap: 50px;
+    font-weight: 700;
+  }
+  &__right {
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    align-items: baseline;
+    font-weight: 700;
+  }
+  &__icons {
+    display: flex;
+    gap: 10px;
+  }
+  &__menu {
+    background-color: #f0f0f4;
+    padding: 15px 0;
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  &__link {
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

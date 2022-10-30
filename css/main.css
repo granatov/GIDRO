@@ -1,0 +1,7 @@
+.baner {
+  display: flex;
+  justify-content: space-between;
+}
+.baner__slider {
+  max-width: 870px;
+}
